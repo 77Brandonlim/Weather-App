@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h6 style="color: blue;">Welcome!</h6>
+    <p class="animate__animated animate__bounce" style="color: crimson;">This content is served to you by....</p>
+    <h2 class="animate__animated animate__rubberBand"style="color: cyan;">The server is brought to you by.....</h2>
+    <div class="dropdown">
+      <button style="color:darkorange;"class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Select your city
+      </button>
+      <div class="dropdown-menu" aria-labelledby="Countries">
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Singapore">Singapore</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Malaysia">Malaysia</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Thailand">Thailand</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Hongkong">Hongkong</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Japan">Japan</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=Vietnam">Vietnam</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=USA">USA</a>
+        <a class="dropdown-item" href="http://127.0.0.1:5000/weather?q=England">England</a>
+      </div>
+    </div>
+    <h1 style="color: darkorange;"> The weather in {{city}} is {{weather}} {{main}}</h1>
+    <a href="https://github.com/VincentK16"  target="_blank">My GitHub</a>
+    <img src="../static/ubt.jpg" alt="UBT">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb_fVNT3aDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uxY3nkcwM-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
