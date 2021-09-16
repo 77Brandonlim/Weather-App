@@ -19,7 +19,7 @@ def contact_us():
 @app.route('/weather', methods=['GET'])
 def weather():
     city = request.args.get('q')
-    url = 'http://api.openweathermap.org/data/2.5/weather?appid=dc20d3160e7d504175d202850b79b74b&q='
+    url = 'http://api.openweathermap.org/data/2.5/weather?appid=dc20d3160e7d504175d202850b79b74b&units=metric&q='
     base_url = url + city
     response= requests.get(base_url).json()
     #data = response.json()
